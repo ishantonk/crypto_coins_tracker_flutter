@@ -1,16 +1,46 @@
-# crypto_coins_tracker_flutter
+coinTracker
+=======================
 
-A new Flutter project.
+## A android and ios app which will can help all the crypto investor to find top 50 Cryptocurrency market details from current price to change in price of last week chart and many more.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+### Launcher icon
+<img src="assets/screenshots/launcher-icon.jpg" width="200" />
 
-A few resources to get you started if this is your first Flutter project:
+### Home screen
+<div style="display: flex;">
+<img style="margin: 10px;" src="assets/screenshots/light-home-page.jpg" width="200" />
+<img style="margin: 10px;" src="assets/screenshots/dark-home-page.jpg" width="200" />
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Details screen
+<div style="display: flex;">
+<img style="margin: 10px;" src="assets/screenshots/details-page.jpg" width="200" />
+<img style="margin: 10px;" src="assets/screenshots/dark-details-page.jpg" width="200" />
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Settings and theme page
+<div style="display: flex;">
+<img style="margin: 10px;" src="assets/screenshots/setting-page.jpg" width="200" />
+<img style="margin: 10px;" src="assets/screenshots/theme-page.jpg" width="200" />
+</div>
+
+## Build Setup
+
+``` bash
+# install dependencies
+flutter pub get.
+
+# run in debug mode
+flutter run
+
+# run production build version
+flutter run --release
+
+# build production build apk
+flutter build apk
+
+# install app in your device
+flutter install
+```
